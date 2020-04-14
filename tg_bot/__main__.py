@@ -29,8 +29,13 @@ The support group chat is at @texassupport
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a part of Penguin Logistics
+Have a look at the following for an idea of some of \
 the things I can help you with.
+
+I'm managed by [dank_as_fuck](https://t.me/dank_as_fuck)
+AI and blacklist module by @TheRealPhoenix
+Source code by @AnimeKaizoku
 
 *Main* commands available:
  - /start: start the bot
