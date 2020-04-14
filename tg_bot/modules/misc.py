@@ -8,7 +8,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import mention_html
 
-from tg_bot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, DEV_USERS, TIGER_USERS, WHITELIST_USERS
+from tg_bot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, DEV_USERS, B_USERS, WHITELIST_USERS
 from tg_bot.__main__ import STATS, USER_INFO, TOKEN
 from tg_bot.modules.disable import DisableAbleCommandHandler
 from tg_bot.modules.helper_funcs.chat_status import user_admin, sudo_plus
@@ -120,29 +120,29 @@ def info(bot: Bot, update: Update, args: List[str]):
 
     text += f"\nPermanent user link: {mention_html(user.id, 'link')}"
 
-    disaster_level_present = False
+    tier_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\nThe Disaster level of this person is 'God'."
-        disaster_level_present = True
+        text += "\nThe Tier level of this person is 'God'."
+        tier_level_present = True
     elif user.id in DEV_USERS:
         text += "\nThis member is one of 'Hero Association'."
-        disaster_level_present = True
+        tier_level_present = True
     elif user.id in SUDO_USERS:
-        text += "\nThe Disaster level of this person is 'Dragon'."
-        disaster_level_present = True
+        text += "\nThe Tier level of this person is 'S'."
+        tier_level_present = True
     elif user.id in SUPPORT_USERS:
-        text += "\nThe Disaster level of this person is 'Demon'."
-        disaster_level_present = True
-    elif user.id in TIGER_USERS:
-        text += "\nThe Disaster level of this person is 'Tiger'."
-        disaster_level_present = True
+        text += "\nThe Tier level of this person is 'Demon'."
+        tier_level_present = True
+    elif user.id in B_USERS:
+        text += "\nThe Tier level of this person is 'B'."
+        tier_level_present = True
     elif user.id in WHITELIST_USERS:
-        text += "\nThe Disaster level of this person is 'Wolf'."
-        disaster_level_present = True
+        text += "\nThe Tier level of this person is 'Wolf'."
+        tier_level_present = True
 
-    if disaster_level_present:
-        text += ' [<a href="http://t.me/{}?start=disasters">?</a>]'.format(bot.username)
+    if tier_level_present:
+        text += ' [<a href="http://t.me/{}?start=tiers">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)

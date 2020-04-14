@@ -80,8 +80,8 @@
          "required": false,
          "value": "615304572"
       },
-      "TIGER_USERS": {
-         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+      "B_USERS": {
+         "description": "A space separated list of user IDs who you wanna assign as B users.",
          "required": false,
          "value": ""
       },
@@ -111,8 +111,8 @@
       "weeb",
       "group",
       "manager",
-      "Saitama"
+      "Texas"
    ],
-   "name": "Saitama Robot",
-   "repository": "https://github.com/AnimeKaizoku/SaitamaRobot"
+   "name": "Texas Robot",
+   "repository": "https://github.com/Dank-del/Texas"
 }

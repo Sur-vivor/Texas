@@ -202,8 +202,8 @@ __help__ = """
  - /unignoreblue <word> - remove prevent auto cleaning of the command
  - /listblue - list currently whitelisted commands
  
- Following are Disasters only commands, admins cannot use these:
-  - /gignoreblue <word> - globally ignore bluetext cleaning of saved word across Saitama.
+ Following are Tiers only commands, admins cannot use these:
+  - /gignoreblue <word> - globally ignore bluetext cleaning of saved word across Texas.
  - /ungignoreblue <word> - remove said command from global cleaning list
 """
 

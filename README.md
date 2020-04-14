@@ -1,16 +1,16 @@
 ![Texas](https://images.alphacoders.com/101/1018297.jpg)
 # Texas Robot 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/SaitamaRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SaitamaRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/TexasRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/TexasRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnimeKaizoku/SaitamaRobot.git)
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dank-del/Texas.git)
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a Marie fork, Saitama evolved further and was built to be more robust and more dedicated to Anime Chats. 
+Originally a Marie fork, Texas evolved further and was built to be more robust and more dedicated to Anime Chats. 
 
-Can be found on telegram as [SaitamaRobot](https://t.me/SaitamaRobot).
+Can be found on telegram as [TexasRobot](https://t.me/TexasRobot).
 
-The Support group can be reached out to at [One Punch Support](https://t.me/OnePunchSupport), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [One Punch Support](https://t.me/texassupport), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [One Punch Updates](https://t.me/OnePunchUpdates) 
 
@@ -20,7 +20,7 @@ News channel as at [One Punch Updates](https://t.me/OnePunchUpdates)
 <details>
   <summary>Click to expand!! </summary>
 
-Note: This instruction set is just a copy-paste from Marie, note that [One Punch Support](https://t.me/OnePunchSupport) aims to handle support for @SaitamaRobot and now how to set up your own fork if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot. 
+Note: This instruction set is just a copy-paste from Marie, note that [One Punch Support](https://t.me/texassupport) aims to handle support for @TexasRobot and now how to set up your own fork if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot. 
 
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
@@ -180,12 +180,12 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [One Punch Support](https://t.me/OnePunchSupport)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [One Punch Support](https://t.me/texassupport)
 ## How to setup on Heroku 
 For starters click on this button
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnimeKaizoku/SaitamaRobot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dank-del/Texas.git)
 
 Fill in all the details, Deploy.
 Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
@@ -201,4 +201,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [One Punch Support](https://t.me/OnePunchSupport) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [One Punch Support](https://t.me/texassupport) or simply submit a pull request on the readme.
